@@ -140,12 +140,6 @@ The repository includes a working Excel model to simulate:
 
 ---
 
-## 📂 Repository
-
-All notes and Excel files are available here:
-
-👉 ""
-
 ---
 
 ## 🚀 Next Steps (Week 3)
