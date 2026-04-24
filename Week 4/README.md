@@ -1,14 +1,11 @@
 # IFRS 9 Week 3 Learning Notes
 
-This folder contains Week 3 learning material built from the provided IFRS 9 transcript and aligned to the uploaded reference format.
+This folder contains Week 4 learning material built for the IFRS 9 Learning Journey .
 
-## Files
 
-- `IFRS9_Week3_Notes.docx` — clean Word notes for LinkedIn / GitHub publishing
-- `IFRS9_Week3_Reference_Example.xlsx` — worked Excel reference example
-- `Week_3_README.md` — short repository README
 
-## Week 3 topics covered
+
+## Week 4 topics covered
 
 - Staging under IFRS 9
 - Delinquency, default, and impairment
