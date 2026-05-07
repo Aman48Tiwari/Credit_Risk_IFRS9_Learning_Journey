@@ -12,11 +12,6 @@
 
 This repository contains comprehensive learning materials for **Week 5** of the IFRS 9 Credit Risk Modelling course. This week focuses on understanding **Probability of Default (PD) Modelling** and how **macroeconomic variables** drive credit risk in a Point-In-Time (PIT) framework.
 
-### Course Structure
-- **Week 1-4**: Foundation concepts (ECL, stages, provisioning)
-- **Week 5** ← You are here: PD Modelling & Macroeconomic Variables
-- **Week 6+**: LGD, EAD, and full implementation
-
 ---
 
 ## 🎯 Learning Objectives
@@ -143,25 +138,6 @@ Comparison of macro sensitivities across loan types (retail, SME, corporate).
 
 ---
 
-## 💡 Learning Tips
-
-### For Beginners
-1. **Don't memorize formulas** - Focus on understanding *why* each variable matters
-2. **Use analogies** - Think of PD as "weather forecast" (TTC = historical average, PIT = tomorrow's weather)
-3. **Start with scenarios** - See PD change from 2% to 7% helps intuition
-4. **Practice with Excel** - Plug in different numbers to see effects
-
-### For Advanced Users
-1. **Study model coefficients** - Interpret β values (elasticity of default to macro changes)
-2. **Examine lagging effects** - Understand timing: GDP in Q1 affects defaults in Q2-Q3
-3. **Validate assumptions** - Check: Are historical correlations stable? Do they break in crises?
-4. **Consider non-linearity** - In severe stress, might GDP-PD relationship change?
-
-### For Practitioners
-1. **Segment your portfolio** - One-size-fits-all models don't work
-2. **Combine expert judgment** - Don't rely only on models; include economist forecasts
-3. **Scenario test regularly** - Update quarterly as conditions change
-4. **Document everything** - Regulators need transparent, auditable models
 
 ---
 
@@ -214,25 +190,6 @@ Comparison of macro sensitivities across loan types (retail, SME, corporate).
 
 ---
 
-## ❓ Frequently Asked Questions
-
-**Q: Why use PIT instead of TTC?**
-A: PIT reflects current conditions so provisions increase when defaults actually rise (during recessions). TTC stays flat, providing no early warning.
-
-**Q: How often should we update PD models?**
-A: Quarterly for most segments. More frequently (monthly) for volatile portfolios during stress.
-
-**Q: Can we use just one macro variable?**
-A: Not recommended. Use multiple variables to capture different drivers. But avoid multicollinearity.
-
-**Q: What if our historical data is incomplete?**
-A: Supplement with industry data, peer benchmarks, or expert judgment. But document and stress-test assumptions.
-
-**Q: How do we forecast macro variables for next 12 months?**
-A: Use: (1) Central bank forecasts, (2) Consensus economist surveys, (3) Market-implied forecasts, (4) Your own economic team.
-
----
-
 ## 📝 Glossary (Quick Reference)
 
 - **PD**: Probability of Default - chance borrower won't repay
@@ -248,41 +205,3 @@ A: Use: (1) Central bank forecasts, (2) Consensus economist surveys, (3) Market-
 
 ---
 
-## 💬 Discussion & Feedback
-
-**Have questions?** Create an issue in this repository.
-
-**Want to contribute?** Pull requests welcome for:
-- Additional case studies
-- Alternative modelling approaches
-- Updated macro data
-- Regional adaptations
-
----
-
-## 📄 License
-
-These learning materials are provided for educational purposes. For use in commercial implementations, ensure compliance with your organization's policies and regulatory requirements.
-
----
-
-## 🙏 Acknowledgments
-
-Created for banking professionals learning IFRS 9 credit risk modelling from first principles. All examples use realistic banking scenarios but are illustrative in nature.
-
----
-
-**Last Updated**: June 2024  
-**Course Level**: Beginner to Intermediate  
-**Estimated Learning Time**: 6-8 hours  
-
----
-
-### Quick Start Guide
-
-1. **First time?** Read: Word document → Introduction (Section 1-2)
-2. **Want examples?** Open: Excel workbook → Scenarios sheet
-3. **Ready to build?** Study: Excel workbook → Model Example sheet
-4. **Need formulas?** Check: Excel workbook → Formulas sheet
-
-**🚀 Ready to learn? Start with Section 1 of the Word document!**
